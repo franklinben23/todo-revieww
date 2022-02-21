@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.three {
+  width: 300px;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task-list li {
+  padding: 2.5px 0 2.5px 0;
+  border: 1px lightgray solid;
+  margin-left: -40px;
+  display: flex;
+  position: relative;
+}
+
+.fas {
+  position: absolute;
+}
+
+.fas:hover,
+.remove-bar:hover {
+  cursor: pointer;
+}
+
+.fa-trash-alt {
+  right: 10px;
+}
+
+.fa-edit {
+  right: 40px;
+}
+
+.remove-bar h4 {
+  border: black solid 1px;
+  border-radius: 10px;
+  text-align: justify;
+}
